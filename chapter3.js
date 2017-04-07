@@ -182,8 +182,20 @@ var counters = [], i;
 for (i = 0; i < 10000; i++) {
     counters.push(CounterFactory.create());
 }
-console.log(counters[0]);
-console.log(counters[9999]);
-counters[9999].increment();
-console.log(counters[9999]);
-console.log(counters[9999].isPastMax());
+// console.log(counters[0]);
+// console.log(counters[9999]);
+// counters[9999].increment();
+// console.log(counters[9999]);
+// console.log(counters[9999].isPastMax());
+
+
+// =============================
+// 6. *Bonus* Loop 1 to 100, output 'fizz' if multiple of 3, 'buzz' at multiple of 5, 'fizzbuzz' at multiple of both 3 and 5.
+for (let i = 1; i <= 100; i++) {
+    //console.log(i);
+    let outputStr = '';
+    if (i % 3 === 0) { outputStr += 'fizz'; }
+    if (i % 5 === 0) { outputStr += 'buzz'; }
+
+    if (outputStr != '') { console.log(outputStr); }
+}
