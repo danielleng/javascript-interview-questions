@@ -10,6 +10,7 @@ console.log("1. How do you declare constants and enums in JavaScript?");
 const MAX_LIVES = 15;
 
 // Declare enum
+// Enum is a data type consisting of a set of named values called elements, members, enumeral, or enumerators of the type.
 let heroA = {
     name: 'Andy',
     type: 'Magician',
@@ -191,9 +192,10 @@ for (i = 0; i < 10000; i++) {
 
 // =============================
 // 6. *Bonus* Loop 1 to 100, output 'fizz' if multiple of 3, 'buzz' at multiple of 5, 'fizzbuzz' at multiple of both 3 and 5.
+let outputStr;
 for (let i = 1; i <= 100; i++) {
     //console.log(i);
-    let outputStr = '';
+    outputStr = '';
     if (i % 3 === 0) { outputStr += 'fizz'; }
     if (i % 5 === 0) { outputStr += 'buzz'; }
 

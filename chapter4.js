@@ -169,8 +169,8 @@ for (let key in Keys) {
 
 
 //===========================
-// 6. Given the following code snippet create a “Factory Method” that creates objects, given different names and professions.
-console.log("6. Given the following code snippet create a “Factory Method” that creates objects, given different names and professions.");
+// 7. Given the following code snippet create a “Factory Method” that creates objects, given different names and professions.
+console.log("7. Given the following code snippet create a “Factory Method” that creates objects, given different names and professions.");
 //===========================
 function factoryMethod(name, profession) {
     var message = "I'm " + name + ", and I am a " + profession + "!";
